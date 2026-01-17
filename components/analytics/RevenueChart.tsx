@@ -4,13 +4,13 @@ import { useState, useMemo } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Area, AreaChart, Legend } from 'recharts';
 
 const baseData = [
-    { name: 'Jan', revenue: 4000 },
-    { name: 'Feb', revenue: 3000 },
-    { name: 'Mar', revenue: 2000 },
-    { name: 'Apr', revenue: 2780 },
-    { name: 'May', revenue: 1890 },
-    { name: 'Jun', revenue: 2390 },
-    { name: 'Jul', revenue: 3490 },
+    { name: 'Jan', revenue: 4000, ideal: 4200 },
+    { name: 'Feb', revenue: 3000, ideal: 4300 },
+    { name: 'Mar', revenue: 2000, ideal: 4500 },
+    { name: 'Apr', revenue: 2780, ideal: 4600 },
+    { name: 'May', revenue: 1890, ideal: 4800 },
+    { name: 'Jun', revenue: 2390, ideal: 5100 },
+    { name: 'Jul', revenue: 3490, ideal: 5500 },
 ];
 
 interface RevenueChartProps {
@@ -23,9 +23,9 @@ export function RevenueChart({ adSpendMultiplier = 1 }: RevenueChartProps) {
     const chartData = useMemo(() => {
         return baseData.map(item => ({
             ...item,
-            // Simple simulation logic: Projected = Revenue * (1 + (Multiplier - 1) * 0.8)
-            // 0.8 factor implies diminishing returns or imperfect scaling
-            projected: Math.round(item.revenue * (1 + (adSpendMultiplier - 1) * 0.8))
+            // Sim logic now uses the 'ideal' baseline, representing "Potential"
+            // This ensures Sim != Actuals even at 1x (showing the "Efficiency Gap")
+            projected: Math.round(item.ideal * (1 + (adSpendMultiplier - 1) * 0.8))
         }));
     }, [adSpendMultiplier]);
 
