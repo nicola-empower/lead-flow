@@ -10,9 +10,10 @@ interface KPICardProps {
     trend: "up" | "down" | "neutral";
     icon: LucideIcon;
     color: "primary" | "accent" | "warning";
+    subtext?: string;
 }
 
-export function KPICard({ label, value, change, trend, icon: Icon, color }: KPICardProps) {
+export function KPICard({ label, value, change, trend, icon: Icon, color, subtext }: KPICardProps) {
     const colorStyles = {
         primary: "bg-primary/10 text-primary border-primary/20",
         accent: "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
@@ -38,6 +39,7 @@ export function KPICard({ label, value, change, trend, icon: Icon, color }: KPIC
             <div>
                 <p className="text-slate-400 text-sm font-medium mb-1">{label}</p>
                 <h3 className="text-2xl font-bold text-white font-mono tracking-tight">{value}</h3>
+                {subtext && <p className="text-xs text-slate-500 mt-1">{subtext}</p>}
             </div>
         </div>
     );
