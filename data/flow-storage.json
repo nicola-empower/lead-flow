@@ -1,0 +1,513 @@
+{
+  "nodes": [
+    {
+      "id": "s1",
+      "type": "source",
+      "position": {
+        "x": 0,
+        "y": 50
+      },
+      "data": {
+        "label": "Facebook Ads",
+        "type": "facebook",
+        "visitors": 20000,
+        "cost": 7200,
+        "sourceType": "facebook",
+        "baseVisitors": 12500,
+        "baseCost": 4500,
+        "throughput": 20000,
+        "baseThroughput": 12500
+      },
+      "measured": {
+        "width": 180,
+        "height": 129
+      }
+    },
+    {
+      "id": "s2",
+      "type": "source",
+      "position": {
+        "x": 0,
+        "y": 250
+      },
+      "data": {
+        "label": "Google Search",
+        "type": "organic",
+        "visitors": 13120,
+        "cost": 3360,
+        "sourceType": "organic",
+        "baseVisitors": 8200,
+        "baseCost": 2100,
+        "throughput": 13120,
+        "baseThroughput": 8200
+      },
+      "measured": {
+        "width": 180,
+        "height": 129
+      }
+    },
+    {
+      "id": "s3",
+      "type": "source",
+      "position": {
+        "x": -24.049563014044935,
+        "y": 453.69993277139156
+      },
+      "data": {
+        "label": "LinkedIn Outreach",
+        "type": "direct",
+        "visitors": 5440,
+        "cost": 8000,
+        "sourceType": "direct",
+        "baseVisitors": 3400,
+        "baseCost": 5000,
+        "throughput": 5440,
+        "baseThroughput": 3400
+      },
+      "measured": {
+        "width": 190,
+        "height": 129
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "p1",
+      "type": "process",
+      "position": {
+        "x": 400,
+        "y": 150
+      },
+      "data": {
+        "label": "Webinar Landing Page",
+        "visitors": 33120,
+        "conversionRate": 28.5,
+        "throughput": 33120,
+        "baseThroughput": 20700
+      },
+      "measured": {
+        "width": 209,
+        "height": 150
+      }
+    },
+    {
+      "id": "p2",
+      "type": "process",
+      "position": {
+        "x": 400,
+        "y": 400
+      },
+      "data": {
+        "label": "Case Study Download",
+        "visitors": 38560,
+        "conversionRate": 42,
+        "throughput": 38560,
+        "baseThroughput": 24100
+      },
+      "measured": {
+        "width": 204,
+        "height": 150
+      }
+    },
+    {
+      "id": "p3",
+      "type": "process",
+      "position": {
+        "x": 800,
+        "y": 50
+      },
+      "data": {
+        "label": "Live Webinar Room",
+        "visitors": 9439,
+        "conversionRate": 15,
+        "throughput": 9439,
+        "baseThroughput": 5899
+      },
+      "measured": {
+        "width": 200,
+        "height": 150
+      }
+    },
+    {
+      "id": "p4",
+      "type": "process",
+      "position": {
+        "x": 800,
+        "y": 250
+      },
+      "data": {
+        "label": "Replay Sequence",
+        "visitors": 9439,
+        "conversionRate": 5.2,
+        "throughput": 9439,
+        "baseThroughput": 5899
+      },
+      "measured": {
+        "width": 200,
+        "height": 191
+      }
+    },
+    {
+      "id": "p5",
+      "type": "process",
+      "position": {
+        "x": 800,
+        "y": 450
+      },
+      "data": {
+        "label": "Email Nurture Series",
+        "visitors": 16195,
+        "conversionRate": 23.5,
+        "throughput": 16195,
+        "baseThroughput": 10122
+      },
+      "measured": {
+        "width": 200,
+        "height": 150
+      },
+      "selected": false
+    },
+    {
+      "id": "o1",
+      "type": "outcome",
+      "position": {
+        "x": 1200,
+        "y": 100
+      },
+      "data": {
+        "label": "High Ticket Deal",
+        "revenue": 16405000,
+        "valuePerDeal": 5000,
+        "visitors": 3281,
+        "baseRevenue": 10250000,
+        "throughput": 3281,
+        "baseThroughput": 2050
+      },
+      "measured": {
+        "width": 200,
+        "height": 206
+      }
+    },
+    {
+      "id": "o2",
+      "type": "outcome",
+      "position": {
+        "x": 1200,
+        "y": 400
+      },
+      "data": {
+        "label": "Self-Serve Product",
+        "revenue": 408672,
+        "valuePerDeal": 297,
+        "visitors": 1376,
+        "baseRevenue": 255420,
+        "throughput": 1376,
+        "baseThroughput": 860
+      },
+      "measured": {
+        "width": 200,
+        "height": 206
+      },
+      "selected": false
+    },
+    {
+      "id": "source-1768679189348",
+      "type": "source",
+      "position": {
+        "x": 2.430692807712248,
+        "y": 709.5012322552934
+      },
+      "data": {
+        "label": "New source",
+        "visitors": 5000,
+        "conversionRate": 10,
+        "revenue": 0,
+        "sourceType": "organic",
+        "baseVisitors": 5000,
+        "cost": 2100,
+        "baseCost": 2100
+      },
+      "measured": {
+        "width": 180,
+        "height": 129
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "process-1768679195614",
+      "type": "process",
+      "position": {
+        "x": 402.0168312077376,
+        "y": 702.4731198054943
+      },
+      "data": {
+        "label": "New process",
+        "visitors": 0,
+        "conversionRate": 20,
+        "revenue": 0,
+        "sourceType": "organic"
+      },
+      "measured": {
+        "width": 200,
+        "height": 150
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "outcome-1768679201349",
+      "type": "outcome",
+      "position": {
+        "x": 1196.53889389036,
+        "y": 705.2755657061904
+      },
+      "data": {
+        "label": "New outcome",
+        "visitors": 0,
+        "conversionRate": 10,
+        "revenue": 0,
+        "sourceType": "organic",
+        "valuePerDeal": 30000
+      },
+      "measured": {
+        "width": 200,
+        "height": 167
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "process-1768679204506",
+      "type": "process",
+      "position": {
+        "x": 798.8291191137012,
+        "y": 698.1660633744157
+      },
+      "data": {
+        "label": "New process",
+        "visitors": 0,
+        "conversionRate": 20,
+        "revenue": 0,
+        "sourceType": "organic"
+      },
+      "measured": {
+        "width": 200,
+        "height": 150
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-s1-p1",
+      "source": "s1",
+      "target": "p1",
+      "type": "animated",
+      "animated": true,
+      "data": {
+        "throughput": 20000,
+        "baseThroughput": 12500,
+        "isGolden": false
+      }
+    },
+    {
+      "id": "e-s1-p2",
+      "source": "s1",
+      "target": "p2",
+      "type": "animated",
+      "animated": true,
+      "data": {
+        "throughput": 20000,
+        "baseThroughput": 12500,
+        "isGolden": true
+      }
+    },
+    {
+      "id": "e-s2-p1",
+      "source": "s2",
+      "target": "p1",
+      "type": "animated",
+      "animated": true,
+      "data": {
+        "throughput": 13120,
+        "baseThroughput": 8200,
+        "isGolden": false
+      }
+    },
+    {
+      "id": "e-s2-p2",
+      "source": "s2",
+      "target": "p2",
+      "type": "animated",
+      "animated": true,
+      "data": {
+        "throughput": 13120,
+        "baseThroughput": 8200,
+        "isGolden": false
+      }
+    },
+    {
+      "id": "e-s3-p2",
+      "source": "s3",
+      "target": "p2",
+      "type": "animated",
+      "animated": true,
+      "data": {
+        "throughput": 5440,
+        "baseThroughput": 3400,
+        "isGolden": false
+      }
+    },
+    {
+      "id": "e-p1-p3",
+      "source": "p1",
+      "target": "p3",
+      "type": "animated",
+      "animated": true,
+      "data": {
+        "throughput": 9439,
+        "baseThroughput": 0,
+        "isGolden": false
+      }
+    },
+    {
+      "id": "e-p1-p4",
+      "source": "p1",
+      "target": "p4",
+      "type": "animated",
+      "animated": true,
+      "data": {
+        "throughput": 9439,
+        "baseThroughput": 0,
+        "isGolden": false
+      }
+    },
+    {
+      "id": "e-p2-p5",
+      "source": "p2",
+      "target": "p5",
+      "type": "animated",
+      "animated": true,
+      "data": {
+        "throughput": 16195,
+        "baseThroughput": 0,
+        "isGolden": true
+      }
+    },
+    {
+      "id": "e-p3-o1",
+      "source": "p3",
+      "target": "o1",
+      "type": "animated",
+      "animated": true,
+      "data": {
+        "throughput": 1415,
+        "baseThroughput": 0,
+        "isGolden": false
+      }
+    },
+    {
+      "id": "e-p4-o1",
+      "source": "p4",
+      "target": "o1",
+      "type": "animated",
+      "animated": true,
+      "data": {
+        "throughput": 490,
+        "baseThroughput": 0,
+        "isGolden": false
+      }
+    },
+    {
+      "id": "e-p5-o1",
+      "source": "p5",
+      "target": "o1",
+      "type": "animated",
+      "animated": true,
+      "data": {
+        "throughput": 3805,
+        "baseThroughput": 0,
+        "isGolden": true
+      }
+    },
+    {
+      "id": "e-p5-o2",
+      "source": "p5",
+      "target": "o2",
+      "type": "animated",
+      "animated": true,
+      "data": {
+        "throughput": 3805,
+        "baseThroughput": 0,
+        "isGolden": false
+      }
+    },
+    {
+      "source": "process-1768679204506",
+      "target": "outcome-1768679201349",
+      "id": "xy-edge__process-1768679204506-outcome-1768679201349",
+      "data": {
+        "throughput": 0,
+        "baseThroughput": 0,
+        "isGolden": false
+      }
+    },
+    {
+      "source": "process-1768679195614",
+      "target": "process-1768679204506",
+      "id": "xy-edge__process-1768679195614-process-1768679204506",
+      "data": {
+        "throughput": 0,
+        "baseThroughput": 0,
+        "isGolden": false
+      }
+    },
+    {
+      "source": "source-1768679189348",
+      "target": "process-1768679195614",
+      "id": "xy-edge__source-1768679189348-process-1768679195614",
+      "data": {
+        "throughput": 5000,
+        "baseThroughput": 5000,
+        "isGolden": false
+      }
+    },
+    {
+      "source": "s3",
+      "target": "process-1768679195614",
+      "id": "xy-edge__s3-process-1768679195614",
+      "data": {
+        "throughput": 5440,
+        "baseThroughput": 3400,
+        "isGolden": false
+      }
+    },
+    {
+      "source": "p2",
+      "target": "process-1768679204506",
+      "id": "xy-edge__p2-process-1768679204506",
+      "data": {
+        "throughput": 16195,
+        "baseThroughput": 0,
+        "isGolden": false
+      }
+    },
+    {
+      "source": "p5",
+      "target": "outcome-1768679201349",
+      "id": "xy-edge__p5-outcome-1768679201349",
+      "data": {
+        "throughput": 3805,
+        "baseThroughput": 0,
+        "isGolden": false
+      }
+    }
+  ],
+  "viewport": {
+    "x": 166.7766567228087,
+    "y": 177.13580780277061,
+    "zoom": 0.5405503622834227
+  }
+}
