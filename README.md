@@ -1,13 +1,15 @@
 # LeadFlow - Marketing Pipeline Simulator
 
-![LeadFlow Dashboard Demo](/public/screenshot-demo.png)
+LeadFlow Dashboard <img width="2853" height="1519" alt="image" src="https://github.com/user-attachments/assets/cb80c85c-e807-446b-ae60-9f55aa99742c" />
+
 
 > **"What if we could debug marketing funnels like we debug code?"**
 
 LeadFlow is an interactive visualization engine designed to simulate and optimize complex marketing journeys. By treating traffic sources, conversion steps, and revenue outcomes as connected nodes in a graph, marketers can visualize "leaks" in their funnel, project revenue based on conversion rates, and run "Time Machine" simulations to forecast the impact of increased ad spend.
 
 ## 🔗 Live Demo
-*(Add your Vercel/Netlify link here)*
+*https://lead-flow-ivory.vercel.app/*
+<img width="2817" height="1518" alt="image" src="https://github.com/user-attachments/assets/cb6ffcca-c265-492e-8a8f-74ef4a854420" />
 
 ---
 
